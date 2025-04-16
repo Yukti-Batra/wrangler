@@ -1,0 +1,19 @@
+Used Chatgpt to enhance my code and help me add things to new files
+
+https://github.com/Yukti-Batra/wrangler   -- read my github repo and I need to add two files in this so take me throught the folder structure of this code
+
+in wrangler-core\src\main\antlr4\io\cdap\wrangler\parser\Directives.g4
+BYTE_SIZE
+ : Number BYTE_UNIT
+ ;
+TIME_DURATION
+ : Number TIME_UNIT
+ ;
+fragment BYTE_UNIT
+ : 'B' | 'KB' | 'MB' | 'GB' | 'TB' | 'PB' | 'EB' | 'ZB' | 'YB'
+ | 'KiB' | 'MiB' | 'GiB' | 'TiB' | 'PiB' | 'EiB' | 'ZiB' | 'YiB'
+ ;
+fragment TIME_UNIT
+ : 'ns' | 'us' | 'ms' | 's' | 'm' | 'h' | 'd' | 'w' | 'mo' | 'y'
+ ;
+this i added in the end of file -- add code of these files to help me
